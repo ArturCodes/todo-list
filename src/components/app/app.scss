@@ -1,14 +1,51 @@
- body {
-   background-color: lightgray;
- }
+body,
+html {
+  background-color: #101010;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.button-wrapper {
+  button {
+    margin: 15px 0 5px 15px;
+    background-color: #1a1a1a;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 600;
+    border: #4183c4 2px solid;
+    border-radius: 10px;
+    &:hover {
+      border: #4183c4 2px solid;
+    }
+    a {
+      color: #4183c4;
+      text-decoration: none;
+      &:hover {
+        color: #4ea0f1;
+        
+      }
+    }
+  }
+}
+
+.content-wrapper {
+  margin: 0 auto;
+}
+
+.summary, .tools {
+  // background-color: #1a1a1a;
+  color: #dcdcdc;
+  padding: 5px;
+  margin-top: 10px;
+}
 
 .todo-app {
-  // margin: 2rem auto 0 auto;
   background-color: whitesmoke;
-  max-width: 600px;
-  margin: 0 auto;
-  margin-top: 10%;
-  padding: 25px;
+  max-width: 700px;
+  padding: 20px 30px 30px 30px;
 }
 
 .top-panel {
