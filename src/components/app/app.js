@@ -127,7 +127,7 @@ export default class App extends Component {
         <div className="content-wrapper">
           <div className="summary">
             <p>
-              This Todo List App was created with the help of a tutorial by{" "}
+              This app was created with the help of a tutorial by{" "}
               <a href="https://www.udemy.com/course/pro-react-redux/">
                 Juriy Bura on Udemy
               </a>
@@ -155,7 +155,7 @@ export default class App extends Component {
               <ItemAddForm onItemAdded={this.AddItem} />
             </div>
           </div>
-          <div className="tools">Created with React, Bootstrap, HTML/SCSS</div>
+          <div className="tools">React, Bootstrap, HTML/SCSS</div>
         </div>
       </div>
     );
